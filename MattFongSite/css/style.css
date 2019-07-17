@@ -1,0 +1,47 @@
+body {
+  font-family: 'Saira', sans-serif;
+  background: url(/img/background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  width: 75%;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#SD {
+  font-size: 2rem;
+
+}
+
+.navitem1 {
+  font-size: 1.5rem;
+  color: #e6e6e6;
+  transition-duration: 0.3s;
+}
+
+.navitem1:hover {
+  color: #ffffff;
+  transition-duration: 0.3s;
+}
+
+.fa-linkedin-in, .fa-envelope, .fa-id-badge, .fa-github, #phone {
+  color: #e6e6e6;
+  transition-duration: 0.3s;
+}
+
+.fa-linkedin-in:hover, .fa-envelope:hover, .fa-id-badge:hover, .fa-github:hover, #phone:hover{
+  color: #ffffff;
+  transition-duration: 0.3s;
+}
+
+/* .navbar-brand
+{
+  font-size: 40px;
+} */
